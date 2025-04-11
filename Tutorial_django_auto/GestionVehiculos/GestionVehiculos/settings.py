@@ -57,13 +57,13 @@ WSGI_APPLICATION = "GestionVehiculos.wsgi.application"
 
 
 DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.postgresql",
-        "NAME": "dataapp",  # Nombre de la base de datos
-        "USER": "myuser",  # Usuario de PostgreSQL
-        "PASSWORD": "1230809075",  # Contraseña
-        "HOST": "localhost",  # Servidor de base de datos
-        "PORT": "5432",  # Puerto de PostgreSQL
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'djangotests',
+        'USER': 'djangotests_user',
+        'PASSWORD': 'vsEr3czSoV5nWB0D5p1naY6EbuXAAJBs',
+        'HOST': 'dpg-cvs9n5muk2gs739prahg-a.oregon-postgres.render.com',
+        'PORT': '5432',
     }
 }
 
